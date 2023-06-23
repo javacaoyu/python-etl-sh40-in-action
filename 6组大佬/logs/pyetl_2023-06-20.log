@@ -1,0 +1,8 @@
+2023-06-20 20:57:51,525 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是create table test_query(id int,name varchar(20))
+2023-06-20 21:03:28,260 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是create table test_query(id int,name varchar(10))
+2023-06-20 21:04:31,972 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是create table test_query(id int,name varchar(10))
+2023-06-20 21:05:38,376 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是drop table if exists test_query
+2023-06-20 21:07:12,662 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是drop table if exists test_query
+2023-06-20 21:07:44,568 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是drop table if exists test_query
+2023-06-20 21:08:31,003 - [ERROR] - mysql_util.py[line:100]: 执行SQL出错，执行的SQL语句是drop table if exists test_query
+2023-06-20 21:12:18,554 - [WARNING] - mysql_util.py[line:73]: 此表已存在，不可重复建表

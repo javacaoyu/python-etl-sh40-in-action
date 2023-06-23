@@ -1,0 +1,62 @@
+2023-06-21 12:04:51,544 - [WARNING] - orders_service.py[line:38]: 本次无问年需要处理，程序退出
+2023-06-21 12:04:51,544 - [WARNING] - orders_service.py[line:38]: 本次无问年需要处理，程序退出
+2023-06-21 12:04:51,544 - [WARNING] - orders_service.py[line:38]: 本次无问年需要处理，程序退出
+2023-06-21 12:08:09,568 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 12:08:09,569 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 12:08:09,701 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT INTO orders_detail(order_id, barcode, name, count, price_per, retail_price, trade_price, category_id, unit_id) VALUES('154243648991517662217', '6901028300056', '南京特醇', 1, 12, 12, 11, 1, 8)
+2023-06-21 14:08:57,968 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 14:08:58,091 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT INTO orders_detail(order_id, barcode, name, count, price_per, retail_price, trade_price, category_id, unit_id) VALUES('154243648991517662217', '6901028300056', '南京特醇', 1, 12, 12, 11, 1, 8)
+2023-06-21 14:14:04,122 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 14:14:05,347 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据2048
+2023-06-21 14:14:05,347 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据3350
+2023-06-21 14:15:14,616 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 14:15:15,745 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据2048
+2023-06-21 14:15:15,745 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据3350
+2023-06-21 14:21:02,980 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 14:21:04,015 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据2048
+2023-06-21 14:21:04,015 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据3350
+2023-06-21 14:21:04,029 - [INFO] - orders_service.py[line:181]: 本次csv插入orders数据2048
+2023-06-21 14:21:04,029 - [INFO] - orders_service.py[line:182]: 本次csv插入orders_detail数据3350
+2023-06-21 14:21:04,039 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:21:04,039 - [CRITICAL] - orders_service.py[line:206]: 写入元数据错误，请检查
+2023-06-21 14:22:08,826 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 14:22:09,829 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据2048
+2023-06-21 14:22:09,829 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据3350
+2023-06-21 14:22:09,842 - [INFO] - orders_service.py[line:181]: 本次csv插入orders数据2048
+2023-06-21 14:22:09,842 - [INFO] - orders_service.py[line:182]: 本次csv插入orders_detail数据3350
+2023-06-21 14:22:09,851 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:22:09,858 - [INFO] - orders_service.py[line:210]: 写入元数据['E:/pyetl-data/x00', 'E:/pyetl-data/x01']
+2023-06-21 14:23:00,276 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:23:00,277 - [WARNING] - orders_service.py[line:38]: 本次无问年需要处理，程序退出
+2023-06-21 14:28:29,516 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:28:29,517 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x06']
+2023-06-21 14:28:29,540 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:28:29,541 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:28:30,058 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据1024
+2023-06-21 14:28:30,058 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据1603
+2023-06-21 14:28:30,065 - [INFO] - orders_service.py[line:181]: 本次csv插入orders数据1024
+2023-06-21 14:28:30,065 - [INFO] - orders_service.py[line:182]: 本次csv插入orders_detail数据1603
+2023-06-21 14:28:30,072 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:28:30,077 - [INFO] - orders_service.py[line:210]: 写入元数据['E:/pyetl-data/x06']
+2023-06-21 14:29:50,264 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:29:50,265 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/2023-06-21/x07', 'E:/pyetl-data/2023-06-21/x08']
+2023-06-21 14:29:50,306 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:29:50,308 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:29:51,101 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据2048
+2023-06-21 14:29:51,101 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据3517
+2023-06-21 14:29:51,115 - [INFO] - orders_service.py[line:181]: 本次csv插入orders数据2048
+2023-06-21 14:29:51,115 - [INFO] - orders_service.py[line:182]: 本次csv插入orders_detail数据3517
+2023-06-21 14:29:51,124 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:29:51,128 - [INFO] - orders_service.py[line:210]: 写入元数据['E:/pyetl-data/2023-06-21/x07', 'E:/pyetl-data/2023-06-21/x08']
+2023-06-21 14:32:36,973 - [WARNING] - mysql_util.py[line:75]: 此表已存在，不可重复建表
+2023-06-21 14:32:36,975 - [WARNING] - orders_service.py[line:38]: 本次无文件需要处理，程序退出
+2023-06-21 14:34:31,119 - [WARNING] - mysql_util.py[line:75]: 表orders_processed_files已存在，不可重复建表
+2023-06-21 14:34:31,119 - [INFO] - orders_service.py[line:40]: 本次需要处理文件['E:/pyetl-data/x09']
+2023-06-21 14:34:31,141 - [WARNING] - mysql_util.py[line:75]: 表orders已存在，不可重复建表
+2023-06-21 14:34:31,142 - [WARNING] - mysql_util.py[line:75]: 表orders_detail已存在，不可重复建表
+2023-06-21 14:34:31,544 - [INFO] - orders_service.py[line:156]: 本次mysql插入orders数据1024
+2023-06-21 14:34:31,544 - [INFO] - orders_service.py[line:157]: 本次mysql插入orders_detail数据1873
+2023-06-21 14:34:31,551 - [INFO] - orders_service.py[line:181]: 本次csv插入orders数据1024
+2023-06-21 14:34:31,551 - [INFO] - orders_service.py[line:182]: 本次csv插入orders_detail数据1873
+2023-06-21 14:34:31,559 - [WARNING] - mysql_util.py[line:75]: 表orders_processed_files已存在，不可重复建表
+2023-06-21 14:34:31,564 - [INFO] - orders_service.py[line:210]: 写入元数据['E:/pyetl-data/x09']

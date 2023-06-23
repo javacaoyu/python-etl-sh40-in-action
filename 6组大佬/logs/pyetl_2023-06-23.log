@@ -1,0 +1,73 @@
+2023-06-23 11:27:04,355 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT IGNORE INTO backend(id,backend_time,backend_status_file_name,response_time,province,city,bacnend_info) values (NULL'2''0''2''3''-''0''6')
+2023-06-23 11:33:18,784 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:33:18,794 - [WARNING] - mysql_util.py[line:75]: 表backend已存在，不可重复建表
+2023-06-23 11:33:18,794 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT IGNORE INTO backend(id,backend_time,backend_status_file_name,response_time,province,city,bacnend_info) values (NULL,'2023-06-23 09:55:16','INFO','orders_service.py','150ms','天津市','和平区','【骚扰短信】我们是专业保洁公司的，哥，您在下沙滨江的别墅需要打扫卫生吗，价格合适，详情：400-618-9090
+')
+2023-06-23 11:34:18,989 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:34:18,999 - [WARNING] - mysql_util.py[line:75]: 表backend已存在，不可重复建表
+2023-06-23 11:34:19,000 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT IGNORE INTO backend(id,backend_time,backend_status,file_name,response_time,province,city,bacnend_info) values (NULL,'2023-06-23 09:55:16','INFO','orders_service.py','150ms','天津市','和平区','【骚扰短信】我们是专业保洁公司的，哥，您在下沙滨江的别墅需要打扫卫生吗，价格合适，详情：400-618-9090
+')
+2023-06-23 11:34:45,184 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:34:45,193 - [WARNING] - mysql_util.py[line:75]: 表backend已存在，不可重复建表
+2023-06-23 11:34:45,843 - [INFO] - backend_service.py[line:107]: 本次执行向MySQL插入5120条数据
+2023-06-23 11:34:45,848 - [INFO] - backend_service.py[line:121]: 本次执行向CSV插入5120条数据
+2023-06-23 11:34:45,857 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:34:45,863 - [INFO] - backend_service.py[line:148]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log']
+2023-06-23 11:40:22,136 - [INFO] - backend_service.py[line:112]: 本次执行向MySQL插入5120条数据
+2023-06-23 11:40:22,141 - [INFO] - backend_service.py[line:126]: 本次执行向CSV插入5120条数据
+2023-06-23 11:40:22,153 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:40:22,157 - [INFO] - backend_service.py[line:153]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log']
+2023-06-23 11:41:08,475 - [INFO] - backend_service.py[line:112]: 本次执行向MySQL插入5120条数据
+2023-06-23 11:41:08,481 - [INFO] - backend_service.py[line:126]: 本次执行向CSV插入5120条数据
+2023-06-23 11:41:08,491 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:41:08,496 - [INFO] - backend_service.py[line:153]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log']
+2023-06-23 11:44:18,082 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:44:18,107 - [WARNING] - mysql_util.py[line:75]: 表backend已存在，不可重复建表
+2023-06-23 11:44:18,668 - [INFO] - backend_service.py[line:112]: 本次执行向MySQL插入5120条数据
+2023-06-23 11:44:18,672 - [INFO] - backend_service.py[line:126]: 本次执行向CSV插入5120条数据
+2023-06-23 11:44:18,682 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 11:44:18,687 - [INFO] - backend_service.py[line:153]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-11-44-06.log', 'E:/pyetl_backend_data/2023-06-23-11-44-07.log', 'E:/pyetl_backend_data/2023-06-23-11-44-08.log', 'E:/pyetl_backend_data/2023-06-23-11-44-09.log', 'E:/pyetl_backend_data/2023-06-23-11-44-10.log']
+2023-06-23 14:23:02,322 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:23:02,324 - [INFO] - backend_service.py[line:73]: 本次需要处理的文件有[]
+2023-06-23 14:23:02,325 - [INFO] - backend_service.py[line:37]: 本次操作没有要处理的文件，程序退出
+2023-06-23 14:28:15,733 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:28:15,734 - [INFO] - backend_service.py[line:73]: 本次需要处理的文件有[]
+2023-06-23 14:28:15,734 - [INFO] - backend_service.py[line:37]: 本次操作没有要处理的文件，程序退出
+2023-06-23 14:29:27,568 - [INFO] - backend_service.py[line:73]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log']
+2023-06-23 14:29:28,292 - [INFO] - backend_service.py[line:135]: 本次执行向MySQL插入5120条数据
+2023-06-23 14:29:28,297 - [INFO] - backend_service.py[line:154]: 本次执行向CSV插入5120条数据
+2023-06-23 14:29:28,305 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:29:28,310 - [INFO] - backend_service.py[line:186]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log']
+2023-06-23 14:39:39,753 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:39:39,754 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-14-39-32.log', 'E:/pyetl_backend_data/2023-06-23-14-39-33.log']
+2023-06-23 14:39:39,765 - [WARNING] - mysql_util.py[line:75]: 表backend已存在，不可重复建表
+2023-06-23 14:39:39,976 - [INFO] - backend_service.py[line:146]: 本次执行向MySQL插入2048条数据
+2023-06-23 14:39:39,978 - [INFO] - backend_service.py[line:165]: 本次执行向CSV插入2048条数据
+2023-06-23 14:39:39,985 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:39:39,989 - [INFO] - backend_service.py[line:197]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-14-39-32.log', 'E:/pyetl_backend_data/2023-06-23-14-39-33.log']
+2023-06-23 14:42:38,866 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:42:38,868 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-14-42-31.log', 'E:/pyetl_backend_data/2023-06-23-14-42-32.log']
+2023-06-23 14:42:38,885 - [WARNING] - mysql_util.py[line:75]: 表backend已存在，不可重复建表
+2023-06-23 14:42:38,885 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT IGNORE INTO backend(id,backend_time,backend_type,file_name,response_time,province,city,backend_info) values (NULL,'2023-06-23 14:42:31','INFO','shop_manager.py','843ms','安徽省','池州市','键盘敲烂，月薪过万。笔记翻烂，薄纱面试官。')
+2023-06-23 14:42:55,250 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log', 'E:/pyetl_backend_data/2023-06-23-14-39-32.log', 'E:/pyetl_backend_data/2023-06-23-14-39-33.log', 'E:/pyetl_backend_data/2023-06-23-14-42-31.log', 'E:/pyetl_backend_data/2023-06-23-14-42-32.log']
+2023-06-23 14:42:55,299 - [ERROR] - mysql_util.py[line:101]: 执行SQL出错，执行的SQL语句是INSERT IGNORE INTO backend(id,backend_time,backend_type,file_name,response_time,province,city,backend_info) values (NULL,'2023-06-23 09:55:16','INFO','orders_service.py','150ms','天津市','和平区','【骚扰短信】我们是专业保洁公司的，哥，您在下沙滨江的别墅需要打扫卫生吗，价格合适，详情：400-618-9090')
+2023-06-23 14:44:16,095 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log', 'E:/pyetl_backend_data/2023-06-23-14-39-32.log', 'E:/pyetl_backend_data/2023-06-23-14-39-33.log', 'E:/pyetl_backend_data/2023-06-23-14-42-31.log', 'E:/pyetl_backend_data/2023-06-23-14-42-32.log']
+2023-06-23 14:44:17,166 - [INFO] - backend_service.py[line:146]: 本次执行向MySQL插入9216条数据
+2023-06-23 14:44:17,174 - [INFO] - backend_service.py[line:165]: 本次执行向CSV插入9216条数据
+2023-06-23 14:44:17,186 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:44:17,194 - [INFO] - backend_service.py[line:197]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-09-55-16.log', 'E:/pyetl_backend_data/2023-06-23-09-55-17.log', 'E:/pyetl_backend_data/2023-06-23-09-55-18.log', 'E:/pyetl_backend_data/2023-06-23-09-55-19.log', 'E:/pyetl_backend_data/2023-06-23-09-55-20.log', 'E:/pyetl_backend_data/2023-06-23-14-39-32.log', 'E:/pyetl_backend_data/2023-06-23-14-39-33.log', 'E:/pyetl_backend_data/2023-06-23-14-42-31.log', 'E:/pyetl_backend_data/2023-06-23-14-42-32.log']
+2023-06-23 14:45:19,860 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-14-45-06.log', 'E:/pyetl_backend_data/2023-06-23-14-45-07.log']
+2023-06-23 14:45:20,152 - [INFO] - backend_service.py[line:146]: 本次执行向MySQL插入2048条数据
+2023-06-23 14:45:20,153 - [INFO] - backend_service.py[line:165]: 本次执行向CSV插入2048条数据
+2023-06-23 14:45:20,160 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:45:20,165 - [INFO] - backend_service.py[line:197]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-14-45-06.log', 'E:/pyetl_backend_data/2023-06-23-14-45-07.log']
+2023-06-23 14:51:32,017 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-14-45-06.log', 'E:/pyetl_backend_data/2023-06-23-14-45-07.log']
+2023-06-23 14:51:32,312 - [INFO] - backend_service.py[line:146]: 本次执行向MySQL插入2048条数据
+2023-06-23 14:51:32,314 - [INFO] - backend_service.py[line:165]: 本次执行向CSV插入2048条数据
+2023-06-23 14:51:32,321 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:51:32,326 - [INFO] - backend_service.py[line:197]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-14-45-06.log', 'E:/pyetl_backend_data/2023-06-23-14-45-07.log']
+2023-06-23 14:52:20,835 - [INFO] - backend_service.py[line:83]: 本次需要处理的文件有['E:/pyetl_backend_data/2023-06-23-14-45-06.log', 'E:/pyetl_backend_data/2023-06-23-14-45-07.log']
+2023-06-23 14:52:21,121 - [INFO] - backend_service.py[line:146]: 本次执行向MySQL插入2048条数据
+2023-06-23 14:52:21,123 - [INFO] - backend_service.py[line:165]: 本次执行向CSV插入2048条数据
+2023-06-23 14:52:21,131 - [WARNING] - mysql_util.py[line:75]: 表backend_processed_files已存在，不可重复建表
+2023-06-23 14:52:21,138 - [INFO] - backend_service.py[line:197]: 已写入元数据['E:/pyetl_backend_data/2023-06-23-14-45-06.log', 'E:/pyetl_backend_data/2023-06-23-14-45-07.log']

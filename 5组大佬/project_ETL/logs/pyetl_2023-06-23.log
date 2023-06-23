@@ -1,0 +1,797 @@
+2023-06-23 11:07:31,382 - [INFO] - orders_service.py[line:40]: 【Json订单数据采集】开启本次执行
+2023-06-23 11:07:31,382 - [INFO] - orders_service.py[line:40]: 【Json订单数据采集】开启本次执行
+2023-06-23 11:07:31,382 - [INFO] - orders_service.py[line:40]: 【Json订单数据采集】开启本次执行
+2023-06-23 11:07:31,411 - [INFO] - orders_service.py[line:49]: 【Json订单数据采集】本次需要采集的文件是：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']，文件条数：29
+2023-06-23 11:07:31,411 - [INFO] - orders_service.py[line:49]: 【Json订单数据采集】本次需要采集的文件是：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']，文件条数：29
+2023-06-23 11:07:31,411 - [INFO] - orders_service.py[line:49]: 【Json订单数据采集】本次需要采集的文件是：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']，文件条数：29
+2023-06-23 11:10:18,377 - [INFO] - orders_service.py[line:171]: 【Json订单数据采集】本次即将向数据库提交，orders表：29696条，orders_detail表：49440条。
+2023-06-23 11:10:18,377 - [INFO] - orders_service.py[line:171]: 【Json订单数据采集】本次即将向数据库提交，orders表：29696条，orders_detail表：49440条。
+2023-06-23 11:10:18,377 - [INFO] - orders_service.py[line:171]: 【Json订单数据采集】本次即将向数据库提交，orders表：29696条，orders_detail表：49440条。
+2023-06-23 11:11:05,710 - [INFO] - orders_service.py[line:40]: 【Json订单数据采集】开启本次执行
+2023-06-23 11:11:05,710 - [INFO] - orders_service.py[line:40]: 【Json订单数据采集】开启本次执行
+2023-06-23 11:11:05,710 - [INFO] - orders_service.py[line:40]: 【Json订单数据采集】开启本次执行
+2023-06-23 11:11:05,712 - [WARNING] - mysql_util.py[line:84]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 11:11:05,712 - [WARNING] - mysql_util.py[line:84]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 11:11:05,712 - [WARNING] - mysql_util.py[line:84]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 11:11:05,716 - [INFO] - orders_service.py[line:49]: 【Json订单数据采集】本次需要采集的文件是：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']，文件条数：29
+2023-06-23 11:11:05,716 - [INFO] - orders_service.py[line:49]: 【Json订单数据采集】本次需要采集的文件是：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']，文件条数：29
+2023-06-23 11:11:05,716 - [INFO] - orders_service.py[line:49]: 【Json订单数据采集】本次需要采集的文件是：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']，文件条数：29
+2023-06-23 11:11:06,531 - [WARNING] - mysql_util.py[line:84]: 表：orders已经存在，本方法不创建，跳过。
+2023-06-23 11:11:06,531 - [WARNING] - mysql_util.py[line:84]: 表：orders已经存在，本方法不创建，跳过。
+2023-06-23 11:11:06,531 - [WARNING] - mysql_util.py[line:84]: 表：orders已经存在，本方法不创建，跳过。
+2023-06-23 11:11:06,535 - [WARNING] - mysql_util.py[line:84]: 表：orders_detail已经存在，本方法不创建，跳过。
+2023-06-23 11:11:06,535 - [WARNING] - mysql_util.py[line:84]: 表：orders_detail已经存在，本方法不创建，跳过。
+2023-06-23 11:11:06,535 - [WARNING] - mysql_util.py[line:84]: 表：orders_detail已经存在，本方法不创建，跳过。
+2023-06-23 11:13:15,462 - [INFO] - orders_service.py[line:171]: 【Json订单数据采集】本次即将向数据库提交，orders表：29696条，orders_detail表：49440条。
+2023-06-23 11:13:15,462 - [INFO] - orders_service.py[line:171]: 【Json订单数据采集】本次即将向数据库提交，orders表：29696条，orders_detail表：49440条。
+2023-06-23 11:13:15,462 - [INFO] - orders_service.py[line:171]: 【Json订单数据采集】本次即将向数据库提交，orders表：29696条，orders_detail表：49440条。
+2023-06-23 11:13:15,754 - [INFO] - orders_service.py[line:138]: 【Json订单数据采集】写出订单数据到CSV文件：./csv_data/orders_2023-06-23_11_11_05.csv.tmp, 条数：29696, 写出订单详情数据到CSV文件：./csv_data/orders_detail_2023-06-23_11_11_05.csv.tmp, 条数：49440
+2023-06-23 11:13:15,754 - [INFO] - orders_service.py[line:138]: 【Json订单数据采集】写出订单数据到CSV文件：./csv_data/orders_2023-06-23_11_11_05.csv.tmp, 条数：29696, 写出订单详情数据到CSV文件：./csv_data/orders_detail_2023-06-23_11_11_05.csv.tmp, 条数：49440
+2023-06-23 11:13:15,754 - [INFO] - orders_service.py[line:138]: 【Json订单数据采集】写出订单数据到CSV文件：./csv_data/orders_2023-06-23_11_11_05.csv.tmp, 条数：29696, 写出订单详情数据到CSV文件：./csv_data/orders_detail_2023-06-23_11_11_05.csv.tmp, 条数：49440
+2023-06-23 11:13:16,278 - [WARNING] - mysql_util.py[line:84]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 11:13:16,278 - [WARNING] - mysql_util.py[line:84]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 11:13:16,278 - [WARNING] - mysql_util.py[line:84]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 11:13:16,328 - [INFO] - orders_service.py[line:92]: 【Json订单数据采集】本次处理的文件：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']已经处理完成，并完成元数据记录。
+2023-06-23 11:13:16,328 - [INFO] - orders_service.py[line:92]: 【Json订单数据采集】本次处理的文件：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']已经处理完成，并完成元数据记录。
+2023-06-23 11:13:16,328 - [INFO] - orders_service.py[line:92]: 【Json订单数据采集】本次处理的文件：['./json_data/x00', './json_data/x01', './json_data/x06', './json_data/x07', './json_data/x08', './json_data/x09', './json_data/x11', './json_data/x20', './json_data/x27', './json_data/x30', './json_data/x31', './json_data/x36', './json_data/x37', './json_data/x38', './json_data/x39', './json_data/x43', './json_data/x44', './json_data/x52', './json_data/x53', './json_data/x54', './json_data/x55', './json_data/x62', './json_data/x63', './json_data/x65', './json_data/x74', './json_data/x80', './json_data/x87', './json_data/x88', './json_data/x89']已经处理完成，并完成元数据记录。
+2023-06-23 11:13:16,328 - [INFO] - orders_service.py[line:62]: 【Json订单数据采集】程序运行结束。
+2023-06-23 11:13:16,328 - [INFO] - orders_service.py[line:62]: 【Json订单数据采集】程序运行结束。
+2023-06-23 11:13:16,328 - [INFO] - orders_service.py[line:62]: 【Json订单数据采集】程序运行结束。
+2023-06-23 11:40:12,699 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 11:40:12,699 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 11:40:12,699 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 11:53:43,107 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:53:43,107 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:53:43,107 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:53:43,107 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:53:43,110 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:53:43,112 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+date      VARCHAR(255) COMMENT '日志时间',
+level     VARCHAR(255) COMMENT '日志等级',
+file      VARCHAR(255) COMMENT '文件名',
+time      INT COMMENT '耗时',
+province  VARCHAR(255) COMMENT '省份',
+region    VARCHAR(255) COMMENT '市',
+data      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:53:43,112 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+date      VARCHAR(255) COMMENT '日志时间',
+level     VARCHAR(255) COMMENT '日志等级',
+file      VARCHAR(255) COMMENT '文件名',
+time      INT COMMENT '耗时',
+province  VARCHAR(255) COMMENT '省份',
+region    VARCHAR(255) COMMENT '市',
+data      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:53:43,112 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+date      VARCHAR(255) COMMENT '日志时间',
+level     VARCHAR(255) COMMENT '日志等级',
+file      VARCHAR(255) COMMENT '文件名',
+time      INT COMMENT '耗时',
+province  VARCHAR(255) COMMENT '省份',
+region    VARCHAR(255) COMMENT '市',
+data      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:53:43,112 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+date      VARCHAR(255) COMMENT '日志时间',
+level     VARCHAR(255) COMMENT '日志等级',
+file      VARCHAR(255) COMMENT '文件名',
+time      INT COMMENT '耗时',
+province  VARCHAR(255) COMMENT '省份',
+region    VARCHAR(255) COMMENT '市',
+data      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:23,226 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:23,226 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:23,226 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:23,226 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:23,229 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:23,229 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:23,229 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:23,229 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:23,230 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:23,230 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:23,230 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:23,230 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:23,232 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:23,232 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:23,232 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:23,232 - [ERROR] - mysql_util.py[line:108]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:44,988 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:44,988 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:44,988 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:44,988 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:44,991 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:54:44,993 - [ERROR] - mysql_util.py[line:109]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:44,993 - [ERROR] - mysql_util.py[line:109]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:44,993 - [ERROR] - mysql_util.py[line:109]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:54:44,993 - [ERROR] - mysql_util.py[line:109]: 执行SQL语句出错，执行的SQL是：CREATE TABLE simulate(
+`date`      VARCHAR(255) COMMENT '日志时间',
+`level`     VARCHAR(255) COMMENT '日志等级',
+`file`      VARCHAR(255) COMMENT '文件名',
+`time`      INT COMMENT '耗时',
+`province`  VARCHAR(255) COMMENT '省份',
+`region`    VARCHAR(255) COMMENT '市',
+`data`      VARCHAR(255) COMMENT '数据',
+)
+2023-06-23 11:55:30,293 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:55:30,293 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:55:30,293 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:55:30,293 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:55:30,296 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 11:56:20,319 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:20,319 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:20,319 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:20,319 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:20,322 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:20,322 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:20,322 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:20,322 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:20,322 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:20,322 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:20,322 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:20,322 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:30,339 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:30,339 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:30,339 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:30,339 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 11:56:30,342 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:30,342 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:30,342 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:30,342 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 11:56:30,342 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:30,342 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:30,342 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 11:56:30,342 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,345 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:19,345 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:19,345 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:19,345 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:19,348 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:19,348 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:19,348 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:19,348 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:19,349 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,349 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,349 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,349 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,351 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:19,351 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:19,351 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:19,351 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:19,351 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,351 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,351 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:19,351 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,185 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:44,185 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:44,185 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:44,185 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 12:06:44,188 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:44,188 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:44,188 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:44,188 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 12:06:44,189 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,189 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,189 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,189 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,191 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:44,191 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:44,191 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:44,191 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 12:06:44,191 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,191 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,191 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 12:06:44,191 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,030 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:31:48,030 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:31:48,030 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:31:48,030 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:31:48,032 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:31:48,032 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:31:48,032 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:31:48,032 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:31:48,032 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,032 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,032 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,032 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,035 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:31:48,035 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:31:48,035 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:31:48,035 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:31:48,035 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,035 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,035 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:31:48,035 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,790 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:32:10,790 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:32:10,790 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:32:10,790 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:32:10,793 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:32:10,793 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:32:10,793 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:32:10,793 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:32:10,793 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,793 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,793 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,793 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,795 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:32:10,795 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:32:10,795 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:32:10,795 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:32:10,796 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,796 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,796 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:32:10,796 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:07,890 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:07,890 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:07,890 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:07,890 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:71]: target.simulate不存在
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 14:34:07,893 - [INFO] - mysql_util.py[line:83]: target.simulate不存在,开始创建表
+2023-06-23 14:34:07,926 - [INFO] - mysql_util.py[line:89]: target.simulate创建表完成
+2023-06-23 14:34:07,926 - [INFO] - mysql_util.py[line:89]: target.simulate创建表完成
+2023-06-23 14:34:07,926 - [INFO] - mysql_util.py[line:89]: target.simulate创建表完成
+2023-06-23 14:34:07,926 - [INFO] - mysql_util.py[line:89]: target.simulate创建表完成
+2023-06-23 14:34:07,929 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:07,929 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:07,929 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:07,929 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:07,930 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:07,930 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:07,930 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:07,930 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,330 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:25,330 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:25,330 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:25,330 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:25,333 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:25,333 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:25,333 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:25,333 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:25,333 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,333 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,333 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,333 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,337 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:25,337 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:25,337 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:25,337 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:25,337 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,337 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,337 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:25,337 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,015 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:55,015 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:55,015 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:55,015 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:34:55,019 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:55,019 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:55,019 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:55,019 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:34:55,019 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,019 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,019 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,019 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,021 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:55,021 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:55,021 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:55,021 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:34:55,021 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,021 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,021 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:34:55,021 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,735 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:35:55,735 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:35:55,735 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:35:55,735 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:35:55,739 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:35:55,739 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:35:55,739 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:35:55,739 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:35:55,739 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,739 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,739 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,739 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,742 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:35:55,742 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:35:55,742 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:35:55,742 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:35:55,742 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,742 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,742 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:35:55,742 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,000 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:28,000 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:28,000 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:28,000 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:28,002 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:28,002 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:28,002 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:28,002 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:28,002 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,002 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,002 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,002 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,005 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:28,005 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:28,005 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:28,005 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:28,005 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,005 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,005 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:28,005 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,486 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:53,486 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:53,486 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:53,486 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:36:53,489 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:53,489 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:53,489 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:53,489 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:36:53,489 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,489 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,489 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,489 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,491 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:53,491 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:53,491 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:53,491 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:36:53,491 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,491 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,491 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:36:53,491 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,387 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:37:28,387 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:37:28,387 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:37:28,387 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 14:37:28,391 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:37:28,391 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:37:28,391 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:37:28,391 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:37:28,391 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,391 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,391 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,391 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,393 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:37:28,393 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:37:28,393 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:37:28,393 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:37:28,393 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,393 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,393 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:37:28,393 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,660 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:38:59,660 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:38:59,660 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:38:59,660 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:38:59,663 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:38:59,663 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:38:59,663 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:38:59,663 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:38:59,663 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,663 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,663 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,663 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,665 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:38:59,665 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:38:59,665 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:38:59,665 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:38:59,665 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,665 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,665 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:38:59,665 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,927 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:59:31,927 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:59:31,927 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:59:31,927 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 14:59:31,930 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:59:31,930 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:59:31,930 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:59:31,930 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 14:59:31,931 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,931 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,931 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,931 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,933 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:59:31,933 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:59:31,933 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:59:31,933 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 14:59:31,933 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,933 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,933 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,933 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 14:59:31,952 - [ERROR] - simulate_service.py[line:72]: (1049, "Unknown database 'simulate'")
+2023-06-23 14:59:31,952 - [ERROR] - simulate_service.py[line:72]: (1049, "Unknown database 'simulate'")
+2023-06-23 14:59:31,952 - [ERROR] - simulate_service.py[line:72]: (1049, "Unknown database 'simulate'")
+2023-06-23 14:59:31,952 - [ERROR] - simulate_service.py[line:72]: (1049, "Unknown database 'simulate'")
+2023-06-23 15:01:17,680 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:01:17,680 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:01:17,680 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:01:17,680 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:01:17,684 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:01:17,684 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:01:17,684 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:01:17,684 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:01:17,684 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,684 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,684 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,684 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,688 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:01:17,688 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:01:17,688 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:01:17,688 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:01:17,689 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,689 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,689 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,689 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:01:17,736 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:01:17,736 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:01:17,736 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:01:17,736 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:01:17,737 - [ERROR] - simulate_service.py[line:72]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:01:17,737 - [ERROR] - simulate_service.py[line:72]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:01:17,737 - [ERROR] - simulate_service.py[line:72]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:01:17,737 - [ERROR] - simulate_service.py[line:72]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:02:04,273 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:02:04,273 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:02:04,273 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:02:04,273 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:02:04,276 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:02:04,276 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:02:04,276 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:02:04,276 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:02:04,276 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,276 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,276 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,276 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,279 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:02:04,279 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:02:04,279 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:02:04,279 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:02:04,279 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,279 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,279 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,279 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:02:04,302 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:02:04,302 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:02:04,302 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:02:04,302 - [ERROR] - mysql_util.py[line:111]: 执行SQL语句出错，执行的SQL是：
+        INSERT IGNORE INTO simulate(
+            date,
+            level,
+            file,
+            time,
+            province,
+            region,
+            data
+        )
+        VALUE (
+            2023-06-23 10:07:18.842562,
+            INFO,
+            goods_manager.py,
+            85,
+            山东省,
+            青岛市,
+            看啥呢，别看日志了，快写代码，说的就是你。
+        )
+        
+2023-06-23 15:02:04,303 - [ERROR] - simulate_service.py[line:73]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:02:04,303 - [ERROR] - simulate_service.py[line:73]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:02:04,303 - [ERROR] - simulate_service.py[line:73]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:02:04,303 - [ERROR] - simulate_service.py[line:73]: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:07:18.842562,\n            INFO,\n            goods_manager.py,\n            85,' at line 11")
+2023-06-23 15:03:05,453 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:03:05,453 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:03:05,453 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:03:05,453 - [INFO] - simulate_service.py[line:31]: 初始化数据库
+2023-06-23 15:03:05,456 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:03:05,456 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:03:05,456 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:03:05,456 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:03:05,456 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,456 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,456 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,456 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,459 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:05,459 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:05,459 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:05,459 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:05,459 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,459 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,459 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:05,459 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:22,957 - [INFO] - simulate_service.py[line:67]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:03:22,957 - [INFO] - simulate_service.py[line:67]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:03:22,957 - [INFO] - simulate_service.py[line:67]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:03:22,957 - [INFO] - simulate_service.py[line:67]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:03:23,005 - [INFO] - simulate_service.py[line:76]: 数据已提交成功
+2023-06-23 15:03:23,005 - [INFO] - simulate_service.py[line:76]: 数据已提交成功
+2023-06-23 15:03:23,005 - [INFO] - simulate_service.py[line:76]: 数据已提交成功
+2023-06-23 15:03:23,005 - [INFO] - simulate_service.py[line:76]: 数据已提交成功
+2023-06-23 15:03:23,011 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:23,011 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:23,011 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:23,011 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:03:23,011 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:23,011 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:23,011 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:23,011 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:03:23,033 - [INFO] - simulate_service.py[line:148]: 【log数据采集】本次处理的文件：['./simulate_data/2023-06-23-10-07-18.log', './simulate_data/2023-06-23-10-07-19.log', './simulate_data/2023-06-23-10-07-20.log', './simulate_data/2023-06-23-10-07-21.log', './simulate_data/2023-06-23-10-07-22.log']已经处理完成，并完成元数据记录。
+2023-06-23 15:03:23,033 - [INFO] - simulate_service.py[line:148]: 【log数据采集】本次处理的文件：['./simulate_data/2023-06-23-10-07-18.log', './simulate_data/2023-06-23-10-07-19.log', './simulate_data/2023-06-23-10-07-20.log', './simulate_data/2023-06-23-10-07-21.log', './simulate_data/2023-06-23-10-07-22.log']已经处理完成，并完成元数据记录。
+2023-06-23 15:03:23,033 - [INFO] - simulate_service.py[line:148]: 【log数据采集】本次处理的文件：['./simulate_data/2023-06-23-10-07-18.log', './simulate_data/2023-06-23-10-07-19.log', './simulate_data/2023-06-23-10-07-20.log', './simulate_data/2023-06-23-10-07-21.log', './simulate_data/2023-06-23-10-07-22.log']已经处理完成，并完成元数据记录。
+2023-06-23 15:03:23,033 - [INFO] - simulate_service.py[line:148]: 【log数据采集】本次处理的文件：['./simulate_data/2023-06-23-10-07-18.log', './simulate_data/2023-06-23-10-07-19.log', './simulate_data/2023-06-23-10-07-20.log', './simulate_data/2023-06-23-10-07-21.log', './simulate_data/2023-06-23-10-07-22.log']已经处理完成，并完成元数据记录。
+2023-06-23 15:03:23,034 - [INFO] - simulate_service.py[line:54]: 【log数据采集】程序运行结束。
+2023-06-23 15:03:23,034 - [INFO] - simulate_service.py[line:54]: 【log数据采集】程序运行结束。
+2023-06-23 15:03:23,034 - [INFO] - simulate_service.py[line:54]: 【log数据采集】程序运行结束。
+2023-06-23 15:03:23,034 - [INFO] - simulate_service.py[line:54]: 【log数据采集】程序运行结束。
+2023-06-23 15:05:18,544 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 15:05:18,544 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 15:05:18,544 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 15:05:18,546 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:05:18,546 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:05:18,546 - [INFO] - mysql_util.py[line:69]: target.simulate存在
+2023-06-23 15:05:18,546 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,546 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,546 - [WARNING] - mysql_util.py[line:92]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,548 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:05:18,548 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:05:18,548 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:05:18,548 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,548 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,548 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,550 - [INFO] - simulate_service.py[line:65]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:05:18,550 - [INFO] - simulate_service.py[line:65]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:05:18,550 - [INFO] - simulate_service.py[line:65]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:05:18,551 - [INFO] - simulate_service.py[line:74]: 数据已提交成功
+2023-06-23 15:05:18,551 - [INFO] - simulate_service.py[line:74]: 数据已提交成功
+2023-06-23 15:05:18,551 - [INFO] - simulate_service.py[line:74]: 数据已提交成功
+2023-06-23 15:05:18,553 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:05:18,553 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:05:18,553 - [INFO] - mysql_util.py[line:69]: metadata.orders_processed_files存在
+2023-06-23 15:05:18,553 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,553 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,553 - [WARNING] - mysql_util.py[line:92]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:05:18,554 - [INFO] - simulate_service.py[line:146]: 【log数据采集】本次处理的文件：[]已经处理完成，并完成元数据记录。
+2023-06-23 15:05:18,554 - [INFO] - simulate_service.py[line:146]: 【log数据采集】本次处理的文件：[]已经处理完成，并完成元数据记录。
+2023-06-23 15:05:18,554 - [INFO] - simulate_service.py[line:146]: 【log数据采集】本次处理的文件：[]已经处理完成，并完成元数据记录。
+2023-06-23 15:05:18,554 - [INFO] - simulate_service.py[line:53]: 【log数据采集】程序运行结束。
+2023-06-23 15:05:18,554 - [INFO] - simulate_service.py[line:53]: 【log数据采集】程序运行结束。
+2023-06-23 15:05:18,554 - [INFO] - simulate_service.py[line:53]: 【log数据采集】程序运行结束。
+2023-06-23 15:32:56,974 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 15:32:56,974 - [INFO] - simulate_service.py[line:30]: 初始化数据库
+2023-06-23 15:32:56,976 - [INFO] - mysql_util.py[line:67]: target.simulate存在
+2023-06-23 15:32:56,976 - [INFO] - mysql_util.py[line:67]: target.simulate存在
+2023-06-23 15:32:56,976 - [WARNING] - mysql_util.py[line:90]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:32:56,976 - [WARNING] - mysql_util.py[line:90]: 表：simulate已经存在，本方法不创建，跳过。
+2023-06-23 15:32:56,978 - [INFO] - mysql_util.py[line:67]: metadata.orders_processed_files存在
+2023-06-23 15:32:56,978 - [INFO] - mysql_util.py[line:67]: metadata.orders_processed_files存在
+2023-06-23 15:32:56,978 - [WARNING] - mysql_util.py[line:90]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:32:56,978 - [WARNING] - mysql_util.py[line:90]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:32:56,981 - [INFO] - simulate_service.py[line:65]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:32:56,981 - [INFO] - simulate_service.py[line:65]: 【log数据采集】本次即将向数据库metadata下simulate表提交0条数据，
+2023-06-23 15:32:56,981 - [INFO] - simulate_service.py[line:74]: 数据已提交成功
+2023-06-23 15:32:56,981 - [INFO] - simulate_service.py[line:74]: 数据已提交成功
+2023-06-23 15:32:56,984 - [INFO] - mysql_util.py[line:67]: metadata.orders_processed_files存在
+2023-06-23 15:32:56,984 - [INFO] - mysql_util.py[line:67]: metadata.orders_processed_files存在
+2023-06-23 15:32:56,984 - [WARNING] - mysql_util.py[line:90]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:32:56,984 - [WARNING] - mysql_util.py[line:90]: 表：orders_processed_files已经存在，本方法不创建，跳过。
+2023-06-23 15:32:56,985 - [INFO] - simulate_service.py[line:146]: 【log数据采集】本次处理的文件：[]已经处理完成，并完成元数据记录。
+2023-06-23 15:32:56,985 - [INFO] - simulate_service.py[line:146]: 【log数据采集】本次处理的文件：[]已经处理完成，并完成元数据记录。
+2023-06-23 15:32:56,985 - [INFO] - simulate_service.py[line:53]: 【log数据采集】程序运行结束。
+2023-06-23 15:32:56,985 - [INFO] - simulate_service.py[line:53]: 【log数据采集】程序运行结束。
