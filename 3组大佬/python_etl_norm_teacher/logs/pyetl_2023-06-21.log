@@ -1,1 +1,0 @@
-2023-06-21 00:29:38,232 - [WARNING] - mysql_util.py[line:86]: 执行sql语句错误，语句为：create table test_exists
