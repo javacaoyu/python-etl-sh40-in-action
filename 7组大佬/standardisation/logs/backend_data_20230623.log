@@ -1,0 +1,8 @@
+2023-06-23 15:42:33,477 - [WARNING] - mysql_util.py[line:88]: 表orders_processed_files已存在，创建失败！
+2023-06-23 15:42:33,479 - [INFO] - backend_data_service.py[line:34]: 本次需要采集的文件为['D:/logs/2023-06-23-10-23-40.log', 'D:/logs/2023-06-23-10-23-41.log', 'D:/logs/2023-06-23-10-23-42.log', 'D:/logs/2023-06-23-10-23-43.log', 'D:/logs/2023-06-23-10-23-44.log']，共5个文件
+2023-06-23 15:42:38,574 - [INFO] - backend_data_service.py[line:88]: 共向backend_data表插入5120条数据。
+2023-06-23 15:42:38,584 - [INFO] - backend_data_service.py[line:102]: 共向D:\PycharmProjects\standardisation\out_data文件插入5120条数据。
+2023-06-23 15:42:38,718 - [WARNING] - mysql_util.py[line:88]: 表orders_processed_files已存在，创建失败！
+2023-06-23 15:42:38,867 - [INFO] - backend_data_service.py[line:144]: 共向元数据插入5条数据
+2023-06-23 16:14:27,802 - [WARNING] - mysql_util.py[line:88]: 表orders_processed_files已存在，创建失败！
+2023-06-23 16:14:27,806 - [INFO] - backend_data_service.py[line:31]: D:\logs目录暂无更新文件，无需处理文件。
